@@ -1,0 +1,50 @@
+    /* styles.css */
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+
+       .outer-frame {
+        border: 4px solid #000; /* Dış çerçeve rengi ve kalınlığını belirler */
+        padding: 10px; /* İçerikten çerçeve içine uzaklaştırma ekler */
+        margin: 90px; /* Sayfa kenarından çerçeveye uzaklaştırır */
+      }
+
+
+      .sudoku-container {
+        display: flex;
+        flex-direction: column; /* Sıralı bir dikey düzen */
+        align-items: center;
+
+      }
+
+      .sudoku-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 1px; /* Boşluk eklemek için */
+        border: 1px solid #000;/*çerçeve kalınlığı*/
+        margin: 0px; /* Gruplar arasına boşluk eklemek için */
+      }
+      
+      .sudoku-row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+
+      .sudoku-cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        width: 50px;
+        height: 50px;
+        border: 1px solid #000;
+        background-color: #fff;
+      }
