@@ -11,8 +11,8 @@
 
        .outer-frame {
         border: 4px solid #000; /* Dış çerçeve rengi ve kalınlığını belirler */
-        padding: 10px; /* İçerikten çerçeve içine uzaklaştırma ekler */
-        margin: 90px; /* Sayfa kenarından çerçeveye uzaklaştırır */
+        padding: 75px; /* İçerikten çerçeve içine uzaklaştırma ekler */
+        margin: 9px; /* Sayfa kenarından çerçeveye uzaklaştırır */
       }
 
 
@@ -47,4 +47,5 @@
         height: 50px;
         border: 1px solid #000;
         background-color: #fff;
-      }
+      }/* Add your styles here */
+
